@@ -44,6 +44,10 @@ I based my program on the [Garbage Classification Dataset](https://www.kaggle.co
 - Update the dataset path and training parameters as needed.
 - Execute the notebook to train the classification model.
 
+## MobileNetV2 Architecture
+- ![image](https://github.com/user-attachments/assets/cb301135-4cd9-4192-ad7e-5b8d72a131ab)
+
+
 ## Testing the Model
 - Use the Streamlit interface (app/app.py) for real-time image classification.
 - Alternatively, run the testing cells in trash_classification.ipynb for batch testing.
