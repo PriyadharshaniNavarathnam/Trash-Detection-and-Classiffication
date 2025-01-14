@@ -1,4 +1,8 @@
 # Trash Classification and Detection
+## Contibuter
+- Dhishanth P.
+- Priyadharshani N.
+
 
 This project aims to classify trash into various categories using deep learning techniques. The model leverages MobileNetV2 for efficient and accurate image classification.
 
@@ -68,9 +72,6 @@ I based my program on the [Garbage Classification Dataset](https://www.kaggle.co
 - Extend the dataset to include more trash categories.
 - Implement streamlit app
 
-## Contibuter
-- Dhishanth P.
-- Priyadharshani N.
 
   
 # Trash Detection
@@ -90,6 +91,12 @@ The Jupyter notebook, `Trash_Detection.ipynb`, contains the complete workflow fo
 - Visualizing training results
 - Saving the trained model to Google Drive
 
+## Model Information
+- Architecture: MobileNet
+- Training Data: Assumed to be a collection of labeled images containing various types of trash.
+- Output: Model capable of detecting and classifying trash in images.
+
+
 ## Setup and Running Instructions
 1. **Open Google Colab**: Start by opening Google Colab in your browser.
 2. **Upload the Notebook**: Upload the `Trash_Detection.ipynb` file to Colab.
@@ -107,10 +114,6 @@ The Jupyter notebook, `Trash_Detection.ipynb`, contains the complete workflow fo
 ![image](https://github.com/user-attachments/assets/c11ffaf0-7f5a-4dc7-8664-197ea16cb782)
 ![image](https://github.com/user-attachments/assets/10e96dfd-7879-4e2c-98d4-70c95ce41d76)
 
-## Model Information
-- Architecture: MobileNet
-- Training Data: Assumed to be a collection of labeled images containing various types of trash.
-- Output: Model capable of detecting and classifying trash in images.
 
 
 ## Future Work
