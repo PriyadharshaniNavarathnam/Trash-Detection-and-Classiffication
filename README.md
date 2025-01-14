@@ -3,15 +3,22 @@
 - Dhishanth P.
 - Priyadharshani N.
 
-
+Garbage classification and detection aim to automatically identify and categorize waste into predefined classes, such as plastic, metal, paper, organic, and hazardous waste.
 This project aims to classify trash into various categories using deep learning techniques. The model leverages MobileNetV2 for efficient and accurate image classification.
 
 ---
 
+## Applications
+- Automated waste segregation at recycling plants.
+- Real-time litter detection in public spaces.
+- Smart garbage bins with embedded classification capabilities.
+- Environmental monitoring for reducing waste pollution.
+
 ## Dataset
 
 The Garbage Classification Dataset contains 6 classifications: cardboard (393), glass (491), metal (400), paper(584), plastic (472), and trash(127).
-
+TrashNet: A popular dataset containing images of waste categorized into classes like paper, glass, metal, plastic, and cardboard.
+TACO (Trash Annotation in Context): A large dataset with annotated images of litter in real-world scenarios.
 The dataset can be found on the [Garbage Classification](https://www.kaggle.com/asdasdasasdas/garbage-classification) page on Kaggle, or downloaded directly through [here](https://www.kaggle.com/asdasdasasdas/garbage-classification/download).
 
 ## Module Overview
