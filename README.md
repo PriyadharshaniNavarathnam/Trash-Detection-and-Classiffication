@@ -4,6 +4,20 @@ This project aims to classify trash into various categories using deep learning 
 
 ---
 
+## Dataset
+
+The Garbage Classification Dataset contains 6 classifications: cardboard (393), glass (491), metal (400), paper(584), plastic (472), and trash(127).
+
+The dataset can be found on the [Garbage Classification](https://www.kaggle.com/asdasdasasdas/garbage-classification) page on Kaggle, or downloaded directly through [here](https://www.kaggle.com/asdasdasasdas/garbage-classification/download).
+
+## Module Overview
+
+In this module I built and trained a neural network to classify different recyclable objects using PyTorch.<br>
+I based my program on the [Garbage Classification Dataset](https://www.kaggle.com/asdasdasasdas/garbage-classification).
+
+
+# Trash Classification
+
 ## Features
 
 - **Multi-Class Classification**: Detects trash categories like paper, plastic, metal, glass, etc.
@@ -20,6 +34,23 @@ This project aims to classify trash into various categories using deep learning 
 - Alternatively, run the testing cells in trash_classification.ipynb for batch testing.
 
 ## Visualizations
+![image](https://github.com/user-attachments/assets/eeaf6bbf-3201-4ba5-b548-ca467f00064d)
+
+![image](https://github.com/user-attachments/assets/fd6cf103-57cd-4bff-ab04-47ff6376247c)
+
+![image](https://github.com/user-attachments/assets/3f8a606c-ce03-46a5-a992-6622080a01d8)
+
+![image](https://github.com/user-attachments/assets/c1d1a676-c2e2-4cbc-b49e-1d09da202cd5)
+
+![image](https://github.com/user-attachments/assets/e0f503f5-5421-47f3-b813-306f39c0d166)
+
+![image](https://github.com/user-attachments/assets/84e67e39-37a5-4935-86ae-000d59217ad1)
+![image](https://github.com/user-attachments/assets/edb7ef94-9c7b-4847-a32b-886c21693f7b)
+![image](https://github.com/user-attachments/assets/f19b1df8-813c-43ad-9f79-2a0ace8c2be6)
+![image](https://github.com/user-attachments/assets/c7081abb-9984-457f-88c0-529aa1edd6a1)
+![image](https://github.com/user-attachments/assets/0b2106d7-75f0-4929-82c4-cc95e38da534)
+
+![image](https://github.com/user-attachments/assets/8593999a-fe87-4079-9ad0-71dd94da6092)
 
 ## Requirements
 - Python Libraries
@@ -32,16 +63,68 @@ This project aims to classify trash into various categories using deep learning 
 
 
   ## Future Enhancements
+- Implement object detection for trash in images.
+- Use transfer learning for better performance on smaller datasets.
+- Extend the dataset to include more trash categories.
+- Implement streamlit app
+
+## Contibuter
+- Dhishanth P.
+- Priyadharshani N.
+
+  
+# Trash Detection
+
+
+
+## Overview
+This project focuses on detecting trash in images using a deep learning approach. The core model used appears to be MobileNet, tailored to identify various types of trash effectively. The project is likely part of a hackathon or similar challenge, as indicated by the file naming and operations performed within the notebook.
+
+## Project Structure
+The Jupyter notebook, `Trash_Detection.ipynb`, contains the complete workflow for training the model, evaluating its performance, and saving the trained model to Google Drive. The notebook is structured to run in Google Colab, leveraging its GPU capabilities for training.
+
+### Contents of the Notebook
+- Data loading and preprocessing
+- Model setup using MobileNet architecture
+- Training the model with validation
+- Visualizing training results
+- Saving the trained model to Google Drive
+
+## Setup and Running Instructions
+1. **Open Google Colab**: Start by opening Google Colab in your browser.
+2. **Upload the Notebook**: Upload the `Trash_Detection.ipynb` file to Colab.
+3. **Mount Google Drive**: To save and access files directly, mount your Google Drive in the notebook:
+   ```python
+   from google.colab import drive
+   drive.mount('/content/drive')
+## Visualisations
+![image](https://github.com/user-attachments/assets/e03bf522-03de-42f1-aa4c-66b9b88cca09)
+
+![image](https://github.com/user-attachments/assets/b8ecd930-bc40-4930-bc2f-35bc87fe2b57)
+![image](https://github.com/user-attachments/assets/4402deb0-2554-4625-a603-220e8d14e49e)
+![image](https://github.com/user-attachments/assets/17b9f2d7-1612-4ac3-bbdc-11c5a6507f3b)
+
+![image](https://github.com/user-attachments/assets/c11ffaf0-7f5a-4dc7-8664-197ea16cb782)
+![image](https://github.com/user-attachments/assets/10e96dfd-7879-4e2c-98d4-70c95ce41d76)
+
+## Model Information
+- Architecture: MobileNet
+- Training Data: Assumed to be a collection of labeled images containing various types of trash.
+- Output: Model capable of detecting and classifying trash in images.
+
+
+## Future Work
+- Enhancements: Potential improvements could include refining the model with more data, implementing better preprocessing techniques, or experimenting with different model architectures.
+- Deployment: Steps towards deploying the model in a real-world application or integrating with a web or mobile application.
 
 
 
 
 
-
-
-
-
-
+### Notes:
+- **Assumptions**: Some assumptions were made about the contents of the notebook based on common practices and snippets observed. Please adjust or extend sections as necessary based on the actual content and specific details of your project.
+- **Document Details**: Remember to include any specific installation requirements, additional setup steps, or data handling instructions as needed.
+- **Results and Evaluation**: Add specific sections detailing performance metrics, charts, or any key findings from the experiments conducted in the notebook.
 
 
 
