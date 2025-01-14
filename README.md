@@ -3,6 +3,7 @@
 - Dhishanth P.
 - Priyadharshani N.
 
+Recycling trash is a crucial part of protecting our environment. Garbage must be divided into categories with similar recycling processes in order to enable the recycling process. The percentage of recycled waste can rise considerably if it is possible to separate domestic trash into several categories. Using the classes given, we trained the model in this notebook to categorize the input images and output the trash classification.
 Garbage classification and detection aim to automatically identify and categorize waste into predefined classes, such as plastic, metal, paper, organic, and hazardous waste.
 This project aims to classify trash into various categories using deep learning techniques. The model leverages MobileNetV2 for efficient and accurate image classification.
 
@@ -21,6 +22,9 @@ TrashNet: A popular dataset containing images of waste categorized into classes 
 TACO (Trash Annotation in Context): A large dataset with annotated images of litter in real-world scenarios.
 The dataset can be found on the [Garbage Classification](https://www.kaggle.com/asdasdasasdas/garbage-classification) page on Kaggle, or downloaded directly through [here](https://www.kaggle.com/asdasdasasdas/garbage-classification/download).
 
+TACO is a growing image dataset of waste in the wild. It contains images of litter taken under diverse environments: woods, roads and beaches. These images are manually labeled and segmented according to a hierarchical taxonomy to train and evaluate object detection algorithms.
+The dataset currently contain 60 different classes.
+For convenience, annotations are provided in COCO format.
 ## Module Overview
 
 In this module I built and trained a neural network to classify different recyclable objects using PyTorch.<br>
@@ -121,6 +125,7 @@ The Jupyter notebook, `Trash_Detection.ipynb`, contains the complete workflow fo
 ![image](https://github.com/user-attachments/assets/c11ffaf0-7f5a-4dc7-8664-197ea16cb782)
 ![image](https://github.com/user-attachments/assets/10e96dfd-7879-4e2c-98d4-70c95ce41d76)
 
+![image](https://github.com/user-attachments/assets/aa994f16-53bf-43f2-b1ec-7aed01f73322)
 
 
 ## Future Work
